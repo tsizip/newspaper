@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-weight: 400;
+    margin-bottom: 0;
+}
+@include responsive("1085"){
+    .container{
+        transition: all .5s;
+        max-width: 95%;
+    }
+}
+@include responsive("large"){
+    .container{
+        max-width: 95%;
+    }
+}
+input, select, textarea{
+    color: #E1E7E6;
+}
+.row{
+    width: 100%;
+    margin: 0;
+}
+.color-blue{
+    color: #30539D;
+}
+.mb{
+    margin-bottom: 1rem;
+}
+.bold{
+   
+    font-weight: 600;
+}
+.container, .container-fluid{
+    padding: 0;
+}
+body {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: $color-black-1;
+    background-color: $color-white;
+    
+}
+
+.col-3, .col-2, col, h4{
+    padding: 0;
+    margin: 0;
+}
+.col-4, .col-5, .col-7{
+    padding: 0;
+    margin: 0;
+}
+.col-6{
+    padding: 0;
+    margin: 0;
+}
+.col-9, .col-8, .col-10, .col-11{
+    padding: 0;
+    margin: 0;
+}
+.col-12, .col-md-12{
+    padding: 0;
+    margin: 0;
+}

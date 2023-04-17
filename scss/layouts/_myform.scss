@@ -1,0 +1,47 @@
+.myform{
+     .myform__content{
+          .row-cus{
+               .col-cus{
+                    .item{
+                         .row-cus{
+                              .left{
+                                   padding-right: 1%;
+                                   form{
+                                        .form-group{
+                                             input{
+                                                  margin-bottom: 1rem;
+                                             }
+                                        }
+                                   }
+                              }
+                              .right{
+                                   padding-left: 1%;
+                                   form{
+                                        .form-group{
+                                             input{
+                                                  margin-bottom: 1rem;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+               .top{
+
+               }
+               .bottom{
+                    .item{
+                         form{
+                              .form-group{
+                                   input{
+                                        margin-bottom: 1rem;
+                                   }
+                              }
+                         }
+                    }
+               }
+               
+          }
+     }
+}

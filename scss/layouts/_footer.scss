@@ -1,0 +1,265 @@
+footer{
+     .footer{
+          font-size: 15px;
+          .footer__content{
+               border-top: 3px solid $color-pink;
+               margin-top: 3%;
+               padding-top: 3%;
+             
+               padding-bottom: 3%;
+               .footer__top{
+                    .row-cus{
+                         width: 100%;
+                         margin: 0;
+                         .col1{
+                              .item{
+                                   width: 92%;
+                                   line-height: 1.3;
+                              }
+                         }
+                         .col2{
+                              .item{
+                                   .row-cus{
+                                        .col-cus{
+                                             .item-col-3{
+                                                  .content{
+                                                       p{
+                                                            &:hover{
+                                                                 color: $color-pink;
+                                                            }
+                                                            cursor: pointer;
+                                                            margin-bottom: .5rem;
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                        .col-5-cus{
+                                             .item-col-5{
+                                                  form{
+                                                       position: relative;
+                                                       .input{
+                                                            width: 100%;
+                                                            padding: 5px;
+                                                       }
+                                                       i{
+                                                            transition: all .3s;
+                                                            position: absolute;
+                                                            top: 0;
+                                                            bottom: 0;
+                                                            right: 13px;
+                                                            line-height: 2.3;
+                                                            cursor: pointer;
+                                                            &:hover{
+                                                                 color: $color-pink;
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+
+                    }
+               }
+
+               .footer__top.footer__bottom{
+                    margin-top: 2%;
+                    .row-cus{
+                         width: 100%;
+                         margin: 0;
+                         .col1{
+                              .item{
+                                   width: 92%;
+                                   line-height: 1.3;
+                              }
+                         }
+                         .col2{
+                              .item{
+                                   .row-cus{
+                                        .col-cus{
+                                             .item-col-3{
+                                                  width: 92%;
+                                                  .content{
+                                                       p{
+                                                            &:hover{
+                                                                 color: $color-pink;
+                                                            }
+                                                            cursor: pointer;
+                                                            margin-bottom: .5rem;
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                        .col-5-cus{
+                                             .item-col-5{
+                                                  form{
+                                                       position: relative;
+                                                       .input{
+                                                            width: 100%;
+                                                            padding: 5px;
+                                                       }
+                                                       i{
+                                                            transition: all .3s;
+                                                            position: absolute;
+                                                            top: 0;
+                                                            bottom: 0;
+                                                            right: 13px;
+                                                            line-height: 2.3;
+                                                            cursor: pointer;
+                                                            &:hover{
+                                                                 color: $color-pink;
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("720"){
+     footer{
+          .footer{
+               font-size: 13px;
+               .footer__content{
+                    border-top: 3px solid $color-pink;
+                    margin-top: 3%;
+                    padding-top: 3%;
+                  
+                    padding-bottom: 3%;
+                    .footer__top{
+                         .row-cus{
+                              padding-top: 3%;
+                              width: 100%;
+                              margin: 0;
+                              .col1{
+                                   .item{
+                                        width: 92%;
+                                        line-height: 1.3;
+                                   }
+                              }
+                              .col2{
+                                   .item{
+                                        .row-cus{
+                                             .col-cus{
+                                                  .item-col-3{
+                                                       .bold{
+                                                            margin-bottom: .1rem;
+                                                       }
+                                                       .content{
+                                                            p{
+                                                                 &:hover{
+                                                                      color: $color-pink;
+                                                                 }
+                                                                 cursor: pointer;
+                                                                 margin-bottom: 0rem;
+                                                            }
+                                                       }
+                                                  }
+                                                  .item-col-4{
+                                                       .img1{
+                                                            margin-bottom: .1rem;
+                                                       }
+                                                  }
+                                             }
+                                             .col-5-cus{
+                                                  .item-col-5{
+                                                       .mb{
+                                                            margin-bottom: .2rem;
+                                                       }
+                                                       form{
+                                                            position: relative;
+                                                            .input{
+                                                                 width: 100%;
+                                                                 padding: 5px;
+                                                            }
+                                                            i{
+                                                                 transition: all .3s;
+                                                                 position: absolute;
+                                                                 top: 0;
+                                                                 bottom: 0;
+                                                                 right: 13px;
+                                                                 line-height: 2.3;
+                                                                 cursor: pointer;
+                                                                 &:hover{
+                                                                      color: $color-pink;
+                                                                 }
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+     
+                         }
+                    }
+     
+                    .footer__top.footer__bottom{
+                         margin-top: 2%;
+                         .row-cus{
+                              width: 100%;
+                              margin: 0;
+                              .col1{
+                                   .item{
+                                        width: 92%;
+                                        line-height: 1.3;
+                                   }
+                              }
+                              .col2{
+                                   .item{
+                                        .row-cus{
+                                             .col-cus{
+                                                  .item-col-3{
+                                                       width: 92%;
+                                                       .content{
+                                                            p{
+                                                                 &:hover{
+                                                                      color: $color-pink;
+                                                                 }
+                                                                 cursor: pointer;
+                                                                 margin-bottom: .5rem;
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                             .col-5-cus{
+                                                  .item-col-5{
+                                                       form{
+                                                            position: relative;
+                                                            .input{
+                                                                 width: 100%;
+                                                                 padding: 5px;
+                                                            }
+                                                            i{
+                                                                 transition: all .3s;
+                                                                 position: absolute;
+                                                                 top: 0;
+                                                                 bottom: 0;
+                                                                 right: 13px;
+                                                                 line-height: 2.3;
+                                                                 cursor: pointer;
+                                                                 &:hover{
+                                                                      color: $color-pink;
+                                                                 }
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+     
+                         }
+                    }
+               }
+          }
+     }
+}

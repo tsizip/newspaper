@@ -1,0 +1,1096 @@
+header{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    .header__content{
+        background: linear-gradient(90deg,#ed0080 0,#be3b98 100%);
+        color: $color-white;
+        .row-cus{
+            margin: 0 auto;
+            .left{
+                .item-left{
+                    padding: 5px 0;
+                    .dropdown{
+                        width: 35%;
+                        cursor: pointer;
+                        .dropdown-toggle{
+                            p{
+                                font-size: 15px;
+                                display: inline;
+                                font-weight: 500;
+                                span{
+                                    transition: all .5s;
+                                    &:hover{
+                                        color: $color-white;
+                                    }
+                                    font-size: 22px;
+                                    font-weight: bold;
+                                    color: yellow;
+                                }
+                            }
+                        }
+                        .dropdown-menu{
+                            min-width: 24rem;
+                            margin: 1.125rem 0 0;
+                            // border: 1px solid black;
+                            box-shadow: 0 0 10px 0 black;
+                            .dropdown-item{
+                                &:hover{
+                                    background-color: unset;
+                                }
+                            }
+                            .row-cus{
+                                width: 100%;
+                                margin: 0;
+                                .right{
+                                    text-align: right;
+                                    .dropdown-item{
+                                        color: $color-pink;
+                                        font-weight: 500;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .right{
+                
+                .row-cus{
+                    .col-4-cus{
+                        .item-right{
+                            transition: all .5s;
+                            
+                            
+                            padding: 10px 0;
+                            p{
+                                text-align: center;
+                                font-size: 14px;
+                                a{
+                                    text-decoration: none;
+                                    color: $color-white;
+                                }
+                            }
+                        }
+                        .item-right.hover-cus{
+                            cursor: pointer;
+                            &:hover{
+                                background-color: #9C1B6B;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header__bottom{
+        background-color: $color-white;
+        .navbar{
+            padding: 0;
+            .collapse{
+                .navbar-nav{
+                    .nav-item{
+                        
+                        .nav-link{
+                            transition: all .2s;
+                            &:hover{
+                                color: $color-pink;
+                            }
+                            color: $color-black;
+                            font-weight: 500;
+                            white-space: nowrap;
+                            
+                        }
+                        .nav-link.active{
+                            color: $color-pink;
+                        }
+                        .dropdown{
+                            .dropdown-menu{
+                               
+                                background-color: #818285;
+                                left: -170px;
+                                .dropdown-item{
+                                    &:hover{
+                                        background-color: unset;
+                                    }
+                                    color: $color-white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .navbar-brand{
+                .img-fluid{
+                    max-width: 26%;
+                }
+                .text{
+                    position: absolute;
+                    left: 8%;
+                    top: 23%;
+                    .top{
+                        font-family: 'Dancing Script', cursive;
+                        color: $color-pink;
+                        font-size: 40px;
+                        line-height: .9;
+                        font-weight: 600;
+                    }
+                    .bottom{
+                        color: $color-blue-2;
+                        font-style: italic;
+                        font-size: 12px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive("1085"){
+    header{
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        .header__content{
+            background: linear-gradient(90deg,#ed0080 0,#be3b98 100%);
+            color: $color-white;
+            .row-cus{
+                margin: 0 auto;
+                .left{
+                    .item-left{
+                        padding: 5px 0;
+                        .dropdown{
+                            width: 35%;
+                            cursor: pointer;
+                            .dropdown-toggle{
+                                p{
+                                    font-size: 12px;
+                                    display: inline;
+                                    font-weight: 500;
+                                    span{
+                                        transition: all .5s;
+                                        &:hover{
+                                            color: $color-white;
+                                        }
+                                        font-size: 17px;
+                                        font-weight: bold;
+                                        color: yellow;
+                                    }
+                                }
+                            }
+                            .dropdown-menu{
+                                min-width: 24rem;
+                                margin: 1.125rem 0 0;
+                                // border: 1px solid black;
+                                box-shadow: 0 0 10px 0 black;
+                                .dropdown-item{
+                                    &:hover{
+                                        background-color: unset;
+                                    }
+                                }
+                                .row-cus{
+                                    width: 100%;
+                                    margin: 0;
+                                    .right{
+                                        text-align: right;
+                                        .dropdown-item{
+                                            color: $color-pink;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .right{
+                    
+                    .row-cus{
+                        .col-4-cus{
+                            .item-right{
+                                transition: all .5s;
+                                
+                                
+                                padding: 10px 0;
+                                p{
+                                    text-align: center;
+                                    font-size: 14px;
+                                }
+                            }
+                            .item-right.hover-cus{
+                                white-space: nowrap;
+                                cursor: pointer;
+                                &:hover{
+                                    background-color: #9C1B6B;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header__bottom{
+            background-color: $color-white;
+            .navbar{
+                padding: 0;
+                .collapse{
+                    .navbar-nav{
+                        .nav-item{
+                            
+                            .nav-link{
+                                transition: all .2s;
+                                &:hover{
+                                    color: $color-pink;
+                                }
+                                color: $color-black;
+                                font-weight: 500;
+                                white-space: nowrap;
+                                
+                            }
+                            .nav-link.active{
+                                color: $color-pink;
+                            }
+                            .dropdown{
+                                .dropdown-menu{
+                                   
+                                    background-color: #818285;
+                                    left: -170px;
+                                    .dropdown-item{
+                                        &:hover{
+                                            background-color: unset;
+                                        }
+                                        color: $color-white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .navbar-brand{
+                    .img-fluid{
+                        max-width: 22%;
+                    }
+                    .text{
+                        position: absolute;
+                        left: 8%;
+                        top: 23%;
+                        .top{
+                            font-family: 'Dancing Script', cursive;
+                            color: $color-pink;
+                            font-size: 40px;
+                            line-height: .9;
+                            font-weight: 600;
+                        }
+                        .bottom{
+                            color: $color-blue-2;
+                            font-style: italic;
+                            font-size: 12px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive("medium"){
+    header{
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        .header__content{
+            background: linear-gradient(90deg,#ed0080 0,#be3b98 100%);
+            color: $color-white;
+            .row-cus{
+                margin: 0 auto;
+                .left{
+                    .item-left{
+                        padding: 5px 0;
+                        .dropdown{
+                            width: 35%;
+                            cursor: pointer;
+                            .dropdown-toggle{
+                                p{
+                                    font-size: 12px;
+                                    display: inline;
+                                    font-weight: 500;
+                                    span{
+                                        transition: all .5s;
+                                        &:hover{
+                                            color: $color-white;
+                                        }
+                                        font-size: 17px;
+                                        font-weight: bold;
+                                        color: yellow;
+                                    }
+                                }
+                            }
+                            .dropdown-menu{
+                                min-width: 24rem;
+                                margin: 1.125rem 0 0;
+                                // border: 1px solid black;
+                                box-shadow: 0 0 10px 0 black;
+                                .dropdown-item{
+                                    &:hover{
+                                        background-color: unset;
+                                    }
+                                }
+                                .row-cus{
+                                    width: 100%;
+                                    margin: 0;
+                                    .right{
+                                        text-align: right;
+                                        .dropdown-item{
+                                            color: $color-pink;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .right{
+                    
+                    .row-cus{
+                        .col-4-cus{
+                            .item-right{
+                                transition: all .5s;
+                                
+                                
+                                padding: 10px 0;
+                                p{
+                                    text-align: center;
+                                    font-size: 14px;
+                                }
+                            }
+                            .item-right.hover-cus{
+                                white-space: nowrap;
+                                cursor: pointer;
+                                &:hover{
+                                    background-color: #9C1B6B;
+                                }
+                                p{
+                                    font-size: 11px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header__bottom{
+            background-color: $color-white;
+            .navbar{
+                padding: 0;
+                .collapse{
+                    .navbar-nav{
+                        .nav-item{
+                            
+                            .nav-link{
+                                transition: all .2s;
+                                &:hover{
+                                    color: $color-pink;
+                                }
+                                color: $color-black;
+                                font-weight: 500;
+                                white-space: nowrap;
+                                
+                            }
+                            .nav-link.active{
+                                color: $color-pink;
+                            }
+                            .dropdown{
+                                .dropdown-menu{
+                                   
+                                    background-color: #818285;
+                                    left: -170px;
+                                    .dropdown-item{
+                                        &:hover{
+                                            background-color: unset;
+                                        }
+                                        color: $color-white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .navbar-brand{
+                    .img-fluid{
+                        max-width: 22%;
+                    }
+                    .text{
+                        position: absolute;
+                        left: 8%;
+                        top: 23%;
+                        .top{
+                            font-family: 'Dancing Script', cursive;
+                            color: $color-pink;
+                            font-size: 40px;
+                            line-height: .9;
+                            font-weight: 600;
+                        }
+                        .bottom{
+                            color: $color-blue-2;
+                            font-style: italic;
+                            font-size: 12px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive("extra-large"){
+    header{
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        .header__content{
+            background: linear-gradient(90deg,#ed0080 0,#be3b98 100%);
+            color: $color-white;
+            .row-cus{
+                margin: 0 auto;
+                .left{
+                    .item-left{
+                        padding: 5px 0;
+                        .dropdown{
+                            width: 35%;
+                            cursor: pointer;
+                            .dropdown-toggle{
+                                p{
+                                    font-size: 12px;
+                                    display: inline;
+                                    font-weight: 500;
+                                    span{
+                                        transition: all .5s;
+                                        &:hover{
+                                            color: $color-white;
+                                        }
+                                        font-size: 17px;
+                                        font-weight: bold;
+                                        color: yellow;
+                                    }
+                                }
+                            }
+                            .dropdown-menu{
+                                min-width: 24rem;
+                                margin: 1.125rem 0 0;
+                                // border: 1px solid black;
+                                box-shadow: 0 0 10px 0 black;
+                                .dropdown-item{
+                                    &:hover{
+                                        background-color: unset;
+                                    }
+                                }
+                                .row-cus{
+                                    width: 100%;
+                                    margin: 0;
+                                    .right{
+                                        text-align: right;
+                                        .dropdown-item{
+                                            color: $color-pink;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .right{
+                    
+                    .row-cus{
+                        .col-4-cus{
+                            .item-right{
+                                transition: all .5s;
+                                
+                                
+                                padding: 10px 0;
+                                p{
+                                    text-align: center;
+                                    font-size: 14px;
+                                }
+                            }
+                            .item-right.hover-cus{
+                                white-space: nowrap;
+                                cursor: pointer;
+                                &:hover{
+                                    background-color: #9C1B6B;
+                                }
+                                p{
+                                    font-size: 11px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header__bottom{
+            background-color: $color-white;
+            .navbar{
+                padding: 0;
+                .collapse{
+                    .navbar-nav{
+                        .nav-item{
+                            
+                            .nav-link{
+                                font-size: 13px;
+                                transition: all .2s;
+                                &:hover{
+                                    color: $color-pink;
+                                }
+                                color: $color-black;
+                                font-weight: 500;
+                                white-space: nowrap;
+                                
+                            }
+                            .nav-link.active{
+                                color: $color-pink;
+                            }
+                            .dropdown{
+                                .dropdown-menu{
+                                   
+                                    background-color: #818285;
+                                    left: -170px;
+                                    .dropdown-item{
+                                        &:hover{
+                                            background-color: unset;
+                                        }
+                                        color: $color-white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .navbar-brand{
+                    .img-fluid{
+                        max-width: 22%;
+                    }
+                    .text{
+                        position: absolute;
+                        left: 8%;
+                        top: 23%;
+                        .top{
+                            font-family: 'Dancing Script', cursive;
+                            color: $color-pink;
+                            font-size: 40px;
+                            line-height: .9;
+                            font-weight: 600;
+                        }
+                        .bottom{
+                            color: $color-blue-2;
+                            font-style: italic;
+                            font-size: 12px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive("large"){
+    header{
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        .header__content{
+            background: linear-gradient(90deg,#ed0080 0,#be3b98 100%);
+            color: $color-white;
+            .row-cus{
+                margin: 0 auto;
+                .left{
+                    .item-left{
+                        padding: 5px 0;
+                        .dropdown{
+                            width: 35%;
+                            cursor: pointer;
+                            .dropdown-toggle{
+                                p{
+                                    font-size: 12px;
+                                    display: inline;
+                                    font-weight: 500;
+                                    span{
+                                        transition: all .5s;
+                                        &:hover{
+                                            color: $color-white;
+                                        }
+                                        font-size: 17px;
+                                        font-weight: bold;
+                                        color: yellow;
+                                    }
+                                }
+                            }
+                            .dropdown-menu{
+                                min-width: 24rem;
+                                margin: 1.125rem 0 0;
+                                // border: 1px solid black;
+                                box-shadow: 0 0 10px 0 black;
+                                .dropdown-item{
+                                    &:hover{
+                                        background-color: unset;
+                                    }
+                                }
+                                .row-cus{
+                                    width: 100%;
+                                    margin: 0;
+                                    .right{
+                                        text-align: right;
+                                        .dropdown-item{
+                                            color: $color-pink;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .right{
+                    
+                    .row-cus{
+                        .col-4-cus{
+                            .item-right{
+                                transition: all .5s;
+                                
+                                
+                                padding: 10px 0;
+                                p{
+                                    text-align: center;
+                                    font-size: 14px;
+                                }
+                            }
+                            .item-right.hover-cus{
+                                white-space: nowrap;
+                                cursor: pointer;
+                                &:hover{
+                                    background-color: #9C1B6B;
+                                }
+                                p{
+                                    font-size: 11px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header__bottom{
+            background-color: $color-white;
+            .navbar{
+                padding: 0;
+                .collapse{
+                    .navbar-nav{
+                        .nav-item{
+                            .dropdown{
+                                display: none;
+                            }
+                            text-align: center;
+                            .nav-link{
+                                font-size: 13px;
+                                
+                                &:hover{
+                                    border-bottom: 1px solid $color-gray-1;
+                                    color: $color-pink;
+                                }
+                                color: $color-black;
+                                font-weight: 500;
+                                white-space: nowrap;
+                                
+                            }
+                            .nav-link.active{
+                                color: $color-pink;
+                            }
+                            .dropdown{
+                                .dropdown-menu{
+                                   
+                                    background-color: #818285;
+                                    left: -170px;
+                                    .dropdown-item{
+                                        &:hover{
+                                            background-color: unset;
+                                        }
+                                        color: $color-white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .navbar-brand{
+                    width: 80%;
+                    position: relative;
+                    .img-fluid{
+                        max-width: 10%;
+                    }
+                    .text{
+                        position: absolute;
+                        left: 11%;
+                        top: 32%;
+                        .top{
+                            font-family: 'Dancing Script', cursive;
+                            color: $color-pink;
+                            font-size: 40px;
+                            line-height: .9;
+                            font-weight: 600;
+                            font-size: 27px;
+                        }
+                        .bottom{
+                            color: $color-blue-2;
+                            font-style: italic;
+                            font-size: 12px;
+                            font-weight: 500;
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive("700"){
+    header{
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        .header__content{
+            background: linear-gradient(90deg,#ed0080 0,#be3b98 100%);
+            color: $color-white;
+            .row-cus{
+                margin: 0 auto;
+                .left{
+                    .item-left{
+                        padding: 5px 0;
+                        .dropdown{
+                            width: 35%;
+                            cursor: pointer;
+                            .dropdown-toggle{
+                                p{
+                                    font-size: 12px;
+                                    display: inline;
+                                    font-weight: 500;
+                                    span{
+                                        transition: all .5s;
+                                        &:hover{
+                                            color: $color-white;
+                                        }
+                                        font-size: 17px;
+                                        font-weight: bold;
+                                        color: yellow;
+                                    }
+                                }
+                            }
+                            .dropdown-menu{
+                                min-width: 24rem;
+                                margin: 1.125rem 0 0;
+                                // border: 1px solid black;
+                                box-shadow: 0 0 10px 0 black;
+                                .dropdown-item{
+                                    &:hover{
+                                        background-color: unset;
+                                    }
+                                }
+                                .row-cus{
+                                    width: 100%;
+                                    margin: 0;
+                                    .right{
+                                        text-align: right;
+                                        .dropdown-item{
+                                            color: $color-pink;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .right{
+                    
+                    .row-cus{
+                        .col-4-cus{
+                            .item-right{
+                                transition: all .5s;
+                                
+                                
+                                padding: 10px 0;
+                                p{
+                                    text-align: center;
+                                    font-size: 14px;
+                                }
+                            }
+                            .item-right.hover-cus{
+                                white-space: nowrap;
+                                cursor: pointer;
+                                &:hover{
+                                    background-color: #9C1B6B;
+                                }
+                                p{
+                                    font-size: 11px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header__bottom{
+            background-color: $color-white;
+            .navbar{
+                padding: 0;
+                .collapse{
+                    .navbar-nav{
+                        .nav-item{
+                            .dropdown{
+                                display: none;
+                            }
+                            text-align: center;
+                            .nav-link{
+                                font-size: 13px;
+                                
+                                &:hover{
+                                    border-bottom: 1px solid $color-gray-1;
+                                    color: $color-pink;
+                                }
+                                color: $color-black;
+                                font-weight: 500;
+                                white-space: nowrap;
+                                
+                            }
+                            .nav-link.active{
+                                color: $color-pink;
+                            }
+                            .dropdown{
+                                .dropdown-menu{
+                                   
+                                    background-color: #818285;
+                                    left: -170px;
+                                    .dropdown-item{
+                                        &:hover{
+                                            background-color: unset;
+                                        }
+                                        color: $color-white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .navbar-brand{
+                    width: 80%;
+                    position: relative;
+                    .img-fluid{
+                        max-width: 14%;
+                    }
+                    .text{
+                        position: absolute;
+                        left: 15%;
+                        top: 32%;
+                        .top{
+                            font-family: 'Dancing Script', cursive;
+                            color: $color-pink;
+                            font-size: 40px;
+                            line-height: .9;
+                            font-weight: 600;
+                            font-size: 27px;
+                        }
+                        .bottom{
+                            color: $color-blue-2;
+                            font-style: italic;
+                            font-size: 12px;
+                            font-weight: 500;
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive("small-max"){
+    header{
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        .header__content{
+            background: linear-gradient(90deg,#ed0080 0,#be3b98 100%);
+            color: $color-white;
+            .row-cus{
+                margin: 0 auto;
+                .left{
+                    .item-left{
+                        padding: 5px 0;
+                        .dropdown{
+                            width: 35%;
+                            cursor: pointer;
+                            .dropdown-toggle{
+                                p{
+                                    font-size: 12px;
+                                    display: inline;
+                                    font-weight: 500;
+                                    span{
+                                        transition: all .5s;
+                                        &:hover{
+                                            color: $color-white;
+                                        }
+                                        font-size: 17px;
+                                        font-weight: bold;
+                                        color: yellow;
+                                    }
+                                }
+                            }
+                            .dropdown-menu{
+                                min-width: 24rem;
+                                margin: 1.125rem 0 0;
+                                // border: 1px solid black;
+                                box-shadow: 0 0 10px 0 black;
+                                .dropdown-item{
+                                    &:hover{
+                                        background-color: unset;
+                                    }
+                                }
+                                .row-cus{
+                                    width: 100%;
+                                    margin: 0;
+                                    .right{
+                                        text-align: right;
+                                        .dropdown-item{
+                                            color: $color-pink;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .right{
+                    
+                    .row-cus{
+                        .col-4-cus{
+                            .item-right{
+                                transition: all .5s;
+                                
+                                
+                                padding: 10px 0;
+                                p{
+                                    text-align: center;
+                                    font-size: 14px;
+                                }
+                            }
+                            .item-right.hover-cus{
+                                white-space: nowrap;
+                                cursor: pointer;
+                                &:hover{
+                                    background-color: #9C1B6B;
+                                }
+                                p{
+                                    font-size: 11px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header__bottom{
+            background-color: $color-white;
+            .navbar{
+                padding: 0;
+                .collapse{
+                    .navbar-nav{
+                        .nav-item{
+                            .dropdown{
+                                display: none;
+                            }
+                            text-align: center;
+                            .nav-link{
+                                font-size: 13px;
+                                
+                                &:hover{
+                                    border-bottom: 1px solid $color-gray-1;
+                                    color: $color-pink;
+                                }
+                                color: $color-black;
+                                font-weight: 500;
+                                white-space: nowrap;
+                                
+                            }
+                            .nav-link.active{
+                                color: $color-pink;
+                            }
+                            .dropdown{
+                                .dropdown-menu{
+                                   
+                                    background-color: #818285;
+                                    left: -170px;
+                                    .dropdown-item{
+                                        &:hover{
+                                            background-color: unset;
+                                        }
+                                        color: $color-white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .navbar-brand{
+                    width: 80%;
+                    position: relative;
+                    .img-fluid{
+                        max-width: 17%;
+                    }
+                    .text{
+                        position: absolute;
+                        left: 19%;
+                        top: 32%;
+                        .top{
+                            font-family: 'Dancing Script', cursive;
+                            color: $color-pink;
+                            font-size: 40px;
+                            line-height: .9;
+                            font-weight: 600;
+                            font-size: 27px;
+                        }
+                        .bottom{
+                            color: $color-blue-2;
+                            font-style: italic;
+                            font-size: 12px;
+                            font-weight: 500;
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

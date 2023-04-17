@@ -1,0 +1,487 @@
+.heading__top2 {
+     margin-top: 2%;
+
+     .heading__top__content {
+          .row-cus {
+               .left {
+                    padding-right: 0.3%;
+
+                    .item {
+                         cursor: pointer;
+                         .img {
+                              box-shadow: inset 0px -20px 20px 0px #000000a8;
+                              background-image: url(../../img/heading-top-img.jpg);
+                              background-position: center;
+                              background-size: cover;
+                              background-repeat: no-repeat;
+                              height: 420px;
+                              position: relative;
+
+                              .text {
+                                   position: absolute;
+                                   bottom: 3px;
+                                   left: 10px;
+
+                                   p {
+                                        text-shadow: 3px 2px 3px black;
+                                        font-size: 30px;
+                                        font-weight: 600;
+
+                                        color: $color-white;
+                                   }
+                              }
+                         }
+                    }
+               }
+
+               .right {
+                    .item {
+                         display: flex;
+                         flex-direction: column;
+
+                         .right__top {
+                              cursor: pointer;
+                              border-bottom: 4px solid white;
+                              box-shadow: inset 0px -20px 20px 0px #000000a8;
+                              position: relative;
+                              background-image: url(../../img/heading-top-img-right.jpg);
+                              background-position: center;
+                              background-repeat: no-repeat;
+                              background-size: cover;
+                              height: 210px;
+
+                              .text {
+                                   position: absolute;
+                                   bottom: 5px;
+                                   left: 10px;
+
+                                   p {
+                                        font-weight: 500;
+                                        color: $color-white;
+                                   }
+                              }
+                         }
+
+                         .right__bottom {
+                              hr {
+                                   margin: 0.4rem 0;
+                                   background-color: #e1e7e6;
+                              }
+
+                              p {
+                                   margin-bottom: 0.3rem;
+                              }
+
+                              padding: 5%;
+                              height: 210px;
+                              background-color: #193445;
+                              color: $color-white;
+
+                              .inputtext {
+                                   position: relative;
+
+                                   i {
+                                        position: absolute;
+                                        top: 27%;
+
+                                        left: 3%;
+                                   }
+
+                                   input {
+                                        &::placeholder {
+                                             color: #e1e7e6;
+                                        }
+
+                                        &:focus-visible {
+                                             border: unset;
+                                             outline: none;
+                                        }
+
+                                        border: unset;
+                                        background-color: #7892a9;
+                                        padding: 2% 2% 2% 12%;
+                                        width: 100%;
+                                   }
+                              }
+
+                              button {
+                                   width: 100%;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("1000"){
+     .heading__top2 {
+          margin-top: 2%;
+     
+          .heading__top__content {
+               .row-cus {
+                    .left {
+                         padding-right: 0.3%;
+     
+                         .item {
+                              cursor: pointer;
+                              .img {
+                                   box-shadow: inset 0px -20px 20px 0px #000000a8;
+                                   background-image: url(../../img/heading-top-img.jpg);
+                                   background-position: center;
+                                   background-size: cover;
+                                   background-repeat: no-repeat;
+                                   height: 420px;
+                                   position: relative;
+     
+                                   .text {
+                                        position: absolute;
+                                        bottom: 3px;
+                                        left: 10px;
+     
+                                        p {
+                                             text-shadow: 3px 2px 3px black;
+                                             font-size: 22px;
+                                             font-weight: 600;
+     
+                                             color: $color-white;
+                                        }
+                                   }
+                              }
+                         }
+                    }
+     
+                    .right {
+                         .item {
+                              display: flex;
+                              flex-direction: column;
+     
+                              .right__top {
+                                   cursor: pointer;
+                                   border-bottom: 4px solid white;
+                                   box-shadow: inset 0px -20px 20px 0px #000000a8;
+                                   position: relative;
+                                   background-image: url(../../img/heading-top-img-right.jpg);
+                                   background-position: center;
+                                   background-repeat: no-repeat;
+                                   background-size: cover;
+                                   height: 210px;
+     
+                                   .text {
+                                        position: absolute;
+                                        bottom: 5px;
+                                        left: 10px;
+     
+                                        p {
+                                             font-size: 15px;
+                                             font-weight: 500;
+                                             color: $color-white;
+                                        }
+                                   }
+                              }
+     
+                              .right__bottom {
+                                   hr {
+                                        margin: 0.4rem 0;
+                                        background-color: #e1e7e6;
+                                   }
+     
+                                   p {
+                                        margin-bottom: 0.3rem;
+                                   }
+     
+                                   padding: 5%;
+                                   height: 210px;
+                                   background-color: #193445;
+                                   color: $color-white;
+     
+                                   .inputtext {
+                                        position: relative;
+     
+                                        i {
+                                             position: absolute;
+                                             top: 27%;
+     
+                                             left: 3%;
+                                        }
+     
+                                        input {
+                                             &::placeholder {
+                                                  color: #e1e7e6;
+                                             }
+     
+                                             &:focus-visible {
+                                                  border: unset;
+                                                  outline: none;
+                                             }
+     
+                                             border: unset;
+                                             background-color: #7892a9;
+                                             padding: 2% 2% 2% 12%;
+                                             width: 100%;
+                                        }
+                                   }
+     
+                                   button {
+                                        width: 100%;
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("800"){
+     .heading__top2 {
+          margin-top: 2%;
+     
+          .heading__top__content {
+               .row-cus {
+                    .left {
+
+                         padding-right: 0.3%;
+     
+                         .item {
+                              cursor: pointer;
+                              .img {
+                                   box-shadow: inset 0px -20px 20px 0px #000000a8;
+                                   background-image: url(../../img/heading-top-img.jpg);
+                                   background-position: center;
+                                   background-size: cover;
+                                   background-repeat: no-repeat;
+                                   height: 420px;
+                                   position: relative;
+     
+                                   .text {
+                                        position: absolute;
+                                        bottom: 3px;
+                                        left: 10px;
+     
+                                        p {
+                                             text-shadow: 3px 2px 3px black;
+                                             font-size: 22px;
+                                             font-weight: 600;
+     
+                                             color: $color-white;
+                                        }
+                                   }
+                              }
+                         }
+                    }
+     
+                    .right {
+                         .item {
+                              display: flex;
+                              flex-direction: column;
+     
+                              .right__top {
+                                   cursor: pointer;
+                                   border-bottom: 4px solid white;
+                                   box-shadow: inset 0px -20px 20px 0px #000000a8;
+                                   position: relative;
+                                   background-image: url(../../img/heading-top-img-right.jpg);
+                                   background-position: center;
+                                   background-repeat: no-repeat;
+                                   background-size: cover;
+                                   height: 210px;
+     
+                                   .text {
+                                        position: absolute;
+                                        bottom: 5px;
+                                        left: 10px;
+     
+                                        p {
+                                             font-size: 15px;
+                                             font-weight: 500;
+                                             color: $color-white;
+                                        }
+                                   }
+                              }
+     
+                              .right__bottom {
+                                   font-size: 15px;
+                                   padding: 4%;
+                                   hr {
+                                        margin: 0.4rem 0;
+                                        background-color: #e1e7e6;
+                                   }
+     
+                                   p {
+                                        &:first-child{
+                                             margin-top: 5%;
+                                        }
+                                        margin-bottom: 0.3rem;
+                                   }
+     
+                                   padding: 5%;
+                                   height: 210px;
+                                   background-color: #193445;
+                                   color: $color-white;
+     
+                                   .inputtext {
+                                        position: relative;
+     
+                                        i {
+                                             position: absolute;
+                                             top: 27%;
+     
+                                             left: 3%;
+                                        }
+     
+                                        input {
+                                             &::placeholder {
+                                                  color: #e1e7e6;
+                                             }
+     
+                                             &:focus-visible {
+                                                  border: unset;
+                                                  outline: none;
+                                             }
+     
+                                             border: unset;
+                                             background-color: #7892a9;
+                                             padding: 2% 2% 2% 12%;
+                                             width: 100%;
+                                        }
+                                   }
+     
+                                   button {
+                                        width: 100%;
+                                        font-size: 14px;
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("medium"){
+     .heading__top2 {
+          margin-top: 2%;
+     
+          .heading__top__content {
+               .row-cus {
+                    .left {
+                         padding-right: unset;
+                         
+                         .item {
+                              cursor: pointer;
+                              .img {
+                                   
+                                   box-shadow: inset 0px -20px 20px 0px #000000a8;
+                                   background-image: url(../../img/heading-top-img.jpg);
+                                   background-position: center;
+                                   background-size: cover;
+                                   background-repeat: no-repeat;
+                                   height: 420px;
+                                   position: relative;
+     
+                                   .text {
+                                        position: absolute;
+                                        bottom: 3px;
+                                        left: 10px;
+     
+                                        p {
+                                             text-shadow: 3px 2px 3px black;
+                                             font-size: 22px;
+                                             font-weight: 600;
+     
+                                             color: $color-white;
+                                        }
+                                   }
+                              }
+                         }
+                    }
+     
+                    .right {
+                         margin-top: .7%;
+                         .item {
+                              display: flex;
+                              flex-direction: column;
+     
+                              .right__top {
+                                   border-bottom: 4px solid white;
+                                   box-shadow: inset 0px -20px 20px 0px #000000a8;
+                                   position: relative;
+                                   background-image: url(../../img/heading-top-img-right.jpg);
+                                   background-position: center;
+                                   background-repeat: no-repeat;
+                                   background-size: cover;
+                                   height: 210px;
+     
+                                   .text {
+                                        position: absolute;
+                                        bottom: 5px;
+                                        left: 10px;
+     
+                                        p {
+                                             font-size: 15px;
+                                             font-weight: 500;
+                                             color: $color-white;
+                                        }
+                                   }
+                              }
+     
+                              .right__bottom {
+                                   height: 170px;
+                                   font-size: 15px;
+                              
+                                   hr {
+                                        margin: 0.4rem 0;
+                                        background-color: #e1e7e6;
+                                   }
+     
+                                   p {
+                                        &:first-child{
+                                             margin-top: 0;
+                                        }
+                                        margin-bottom: 0;
+                                   }
+     
+                                   padding: 2%;
+                                   
+                                   background-color: #193445;
+                                   color: $color-white;
+     
+                                   .inputtext {
+                                        position: relative;
+     
+                                        i {
+                                             position: absolute;
+                                             top: 27%;
+     
+                                             left: 3%;
+                                        }
+     
+                                        input {
+                                             &::placeholder {
+                                                  color: #e1e7e6;
+                                             }
+     
+                                             &:focus-visible {
+                                                  border: unset;
+                                                  outline: none;
+                                             }
+     
+                                             border: unset;
+                                             background-color: #7892a9;
+                                             padding: 2% 2% 2% 12%;
+                                             width: 100%;
+                                        }
+                                   }
+     
+                                   button {
+                                        width: 100%;
+                                        font-size: 14px;
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}

@@ -1,0 +1,493 @@
+.comment{
+     background-color: #FCFAF6;
+     .comment__content{
+          
+          padding: 2% 0;
+          max-width: 600px;
+          margin: 0 20%;
+          .form{
+               form{
+                    .cus{
+                         .button-cus{
+                              padding: 0 3rem;
+                              line-height: 2;
+                              border-radius: 4px;
+                              cursor: pointer;
+                         }
+                    }
+               }
+          }
+          .post{
+               .post__content{
+                    .all{
+                         color: $color-pink;
+                         font-weight: bold;
+                         text-decoration: underline;
+                         margin: 1rem 0;
+                    }
+                    .item{
+                         .row-cus.nguoi2{
+                              display: none;
+                         }
+                         .row-cus{
+                              margin-bottom: 1rem;
+                              align-items: center;
+                              .left{
+                                   padding: 0;
+                                   .item{
+                                        padding: 0;
+                                        width: 50px;
+                                        height: 50px;
+                                        border: 1px solid black;
+                                        border-radius: 50%;
+                                        line-height: 46px;
+                                        text-align: center;
+                                   }
+                              }
+                              .right{
+                                   padding-left: 2%;
+                                   .item{
+
+                                        .reaction{
+                                             ul{
+                                                  .hover-cus{
+                                                       transition: all .5s;
+                                                       &:hover{
+                                                            color: $color-pink;
+                                                       }
+                                                  }
+                                                  margin-bottom: 0;
+                                                  list-style: none;
+                                                  display: flex;
+                                                  li{
+                                                       cursor: pointer;
+                                                       font-weight: 500;
+                                                       color: rgb(0 0 0 / 32%);
+                                                       font-size: 13px;
+                                                       margin-right: 2%;
+                                                  }
+                                             }
+                                        }
+                                        p{
+                                             line-height: 1.3;
+                                             margin-bottom: .5rem;
+                                             font-size: 15px;
+                                        }
+                                        .name{
+                                             margin-right: 5px;
+                                             transition: all .3s;
+                                             cursor: pointer;
+                                             &:hover{
+                                                  color: $color-pink;
+                                             }
+                                             font-weight: bold;
+                                        }
+                                   }
+                              }
+                         }
+                         .tag{
+                              border-bottom: 1px solid #E0E0E0;
+                              .tag__content{
+                                   margin-top: 9%;
+                                   p{
+                                        font-size: 15px;
+                                        font-weight: 400;
+                                        span{
+                                             color: #E0E0E0;
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+
+     }
+}
+
+@include responsive("1000"){
+     .comment{
+          background-color: #FCFAF6;
+          .comment__content{
+               
+               padding: 2% 0;
+               max-width: 800px;
+               margin: 0 7.5%;
+               .form{
+                    form{
+                         .cus{
+                              .button-cus{
+                                   padding: 0 3rem;
+                                   line-height: 2;
+                                   border-radius: 4px;
+                                   cursor: pointer;
+                              }
+                         }
+                    }
+               }
+               .post{
+                    .post__content{
+                         .all{
+                              color: $color-pink;
+                              font-weight: bold;
+                              text-decoration: underline;
+                              margin: 1rem 0;
+                         }
+                         .item{
+                              .row-cus.nguoi2{
+                                   display: none;
+                              }
+                              .row-cus{
+                                   margin-bottom: 1rem;
+                                   align-items: center;
+                                   .left{
+                                        padding: 0;
+                                        .item{
+                                             padding: 0;
+                                             width: 40px;
+                                             height: 40px;
+                                             border: 1px solid black;
+                                             border-radius: 50%;
+                                             line-height: 35px;
+                                             text-align: center;
+                                        }
+                                   }
+                                   .right{
+                                        padding-left: 0;
+                                        .item{
+     
+                                             .reaction{
+                                                  ul{
+                                                       .hover-cus{
+                                                            transition: all .5s;
+                                                            &:hover{
+                                                                 color: $color-pink;
+                                                            }
+                                                       }
+                                                       margin-bottom: 0;
+                                                       list-style: none;
+                                                       display: flex;
+                                                       li{
+                                                            cursor: pointer;
+                                                            font-weight: 500;
+                                                            color: rgb(0 0 0 / 32%);
+                                                            font-size: 11px;
+                                                            margin-right: 2%;
+                                                       }
+                                                  }
+                                             }
+                                             p{
+                                                  line-height: 1.3;
+                                                  margin-bottom: .2rem;
+                                                  font-size: 14px;
+                                             }
+                                             .name{
+                                                  margin-right: 5px;
+                                                  transition: all .3s;
+                                                  cursor: pointer;
+                                                  &:hover{
+                                                       color: $color-pink;
+                                                  }
+                                                  font-weight: bold;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+     
+          }
+     }
+}
+
+@include responsive("700"){
+     .comment{
+          background-color: #FCFAF6;
+          .comment__content{
+               
+               padding: 2% 0;
+               max-width: 900px;
+               margin: 0 2.5%;
+               .form{
+                    form{
+                         .cus{
+                              .button-cus{
+                                   padding: 0 3rem;
+                                   line-height: 2;
+                                   border-radius: 4px;
+                                   cursor: pointer;
+                              }
+                         }
+                    }
+               }
+               .post{
+                    .post__content{
+                         .all{
+                              color: $color-pink;
+                              font-weight: bold;
+                              text-decoration: underline;
+                              margin: 1rem 0;
+                         }
+                         .item{
+                              .row-cus.nguoi2{
+                                   display: none;
+                              }
+                              .row-cus{
+                                   margin-bottom: 1rem;
+                                   align-items: center;
+                                   .left{
+                                        padding: 0;
+                                        .item{
+                                             padding: 0;
+                                             width: 40px;
+                                             height: 40px;
+                                             border: 1px solid black;
+                                             border-radius: 50%;
+                                             line-height: 35px;
+                                             text-align: center;
+                                        }
+                                   }
+                                   .right{
+                                        padding-left: 0;
+                                        .item{
+     
+                                             .reaction{
+                                                  ul{
+                                                       .hover-cus{
+                                                            transition: all .5s;
+                                                            &:hover{
+                                                                 color: $color-pink;
+                                                            }
+                                                       }
+                                                       margin-bottom: 0;
+                                                       list-style: none;
+                                                       display: flex;
+                                                       li{
+                                                            cursor: pointer;
+                                                            font-weight: 500;
+                                                            color: rgb(0 0 0 / 32%);
+                                                            font-size: 11px;
+                                                            margin-right: 2%;
+                                                       }
+                                                  }
+                                             }
+                                             p{
+                                                  line-height: 1.3;
+                                                  margin-bottom: .2rem;
+                                                  font-size: 14px;
+                                             }
+                                             .name{
+                                                  margin-right: 5px;
+                                                  transition: all .3s;
+                                                  cursor: pointer;
+                                                  &:hover{
+                                                       color: $color-pink;
+                                                  }
+                                                  font-weight: bold;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+     
+          }
+     }
+}
+
+@include responsive("small"){
+     .comment{
+          background-color: #FCFAF6;
+          .comment__content{
+               
+               padding: 2% 0;
+               max-width: 900px;
+               margin: 0 2.5%;
+               .form{
+                    form{
+                         .cus{
+                              .button-cus{
+                                   padding: 0 3rem;
+                                   line-height: 2;
+                                   border-radius: 4px;
+                                   cursor: pointer;
+                              }
+                         }
+                    }
+               }
+               .post{
+                    .post__content{
+                         .all{
+                              color: $color-pink;
+                              font-weight: bold;
+                              text-decoration: underline;
+                              margin: 1rem 0;
+                         }
+                         .item{
+                              .row-cus.nguoi2{
+                                   display: none;
+                              }
+                              .row-cus{
+                                   margin-bottom: 1rem;
+                                   align-items: center;
+                                   .left{
+                                        padding: 0;
+                                        .item{
+                                             padding: 0;
+                                             width: 40px;
+                                             height: 40px;
+                                             border: 1px solid black;
+                                             border-radius: 50%;
+                                             line-height: 35px;
+                                             text-align: center;
+                                        }
+                                   }
+                                   .right{
+                                        padding-left: 0;
+                                        .item{
+                                             padding-left: 1%;
+                                             .reaction{
+                                                  ul{
+                                                       .hover-cus{
+                                                            transition: all .5s;
+                                                            &:hover{
+                                                                 color: $color-pink;
+                                                            }
+                                                       }
+                                                       margin-bottom: 0;
+                                                       list-style: none;
+                                                       display: flex;
+                                                       li{
+                                                            cursor: pointer;
+                                                            font-weight: 500;
+                                                            color: rgb(0 0 0 / 32%);
+                                                            font-size: 11px;
+                                                            margin-right: 2%;
+                                                       }
+                                                  }
+                                             }
+                                             p{
+                                                  line-height: 1.3;
+                                                  margin-bottom: .2rem;
+                                                  font-size: 12px;
+                                             }
+                                             .name{
+                                                  margin-right: 5px;
+                                                  transition: all .3s;
+                                                  cursor: pointer;
+                                                  &:hover{
+                                                       color: $color-pink;
+                                                  }
+                                                  font-weight: bold;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+     
+          }
+     }
+}
+
+@include responsive("small-max"){
+     .comment{
+          background-color: #FCFAF6;
+          .comment__content{
+               
+               padding: 2% 0;
+               max-width: 900px;
+               margin: 0 2.5%;
+               .form{
+                    form{
+                         .cus{
+                              .button-cus{
+                                   padding: 0 3rem;
+                                   line-height: 2;
+                                   border-radius: 4px;
+                                   cursor: pointer;
+                              }
+                         }
+                    }
+               }
+               .post{
+                    .post__content{
+                         .all{
+                              color: $color-pink;
+                              font-weight: bold;
+                              text-decoration: underline;
+                              margin: 1rem 0;
+                         }
+                         .item{
+                              .row-cus.nguoi2{
+                                   display: none;
+                              }
+                              .row-cus{
+                                   margin-bottom: 1rem;
+                                   align-items: center;
+                                   .left{
+                                        padding: 0;
+                                        .item{
+                                             padding: 0;
+                                             width: 40px;
+                                             height: 40px;
+                                             border: 1px solid black;
+                                             border-radius: 50%;
+                                             line-height: 35px;
+                                             text-align: center;
+                                        }
+                                   }
+                                   .right{
+                                        padding-left: 0;
+                                        .item{
+                                             padding-left: 2%;
+                                             .reaction{
+                                                  ul{
+                                                       .hover-cus{
+                                                            transition: all .5s;
+                                                            &:hover{
+                                                                 color: $color-pink;
+                                                            }
+                                                       }
+                                                       margin-bottom: 0;
+                                                       list-style: none;
+                                                       display: flex;
+                                                       li{
+                                                            cursor: pointer;
+                                                            font-weight: 500;
+                                                            color: rgb(0 0 0 / 32%);
+                                                            font-size: 11px;
+                                                            margin-right: 2%;
+                                                       }
+                                                  }
+                                             }
+                                             p{
+                                                  line-height: 1.3;
+                                                  margin-bottom: .2rem;
+                                                  font-size: 12px;
+                                             }
+                                             .name{
+                                                  margin-right: 5px;
+                                                  transition: all .3s;
+                                                  cursor: pointer;
+                                                  &:hover{
+                                                       color: $color-pink;
+                                                  }
+                                                  font-weight: bold;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+     
+          }
+     }
+}
+button{
+     font-weight: bold!important;
+}

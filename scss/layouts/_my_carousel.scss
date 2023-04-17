@@ -1,0 +1,44 @@
+.my_carousel{
+     .carousel__content{
+          margin-top: .65%;
+          .my-carousel{
+               .item{
+                    .content{
+                         cursor: pointer;
+                         .img{
+
+                         }
+                         .text{
+                              p{
+                                   font-weight: 700;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("medium"){
+     .my_carousel{
+          .carousel__content{
+               margin-top: .65%;
+               .my-carousel{
+                    .item{
+                         .content{
+                              cursor: pointer;
+                              .img{
+     
+                              }
+                              .text{
+                                   p{
+                                        font-size: 15px;
+                                        font-weight: 700;
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}

@@ -1,0 +1,2430 @@
+.heading__bottom {
+     margin-top: 0.5%;
+     margin-bottom: 2%;
+
+     .heading__bottom__content {
+
+          // max-width: 1155px;
+          .button1 {
+               .row-cus {
+                    width: 100%;
+                    margin: 0;
+
+                    .col-cus {
+                         .item {
+                              padding: 2%;
+
+                              .card {
+                                   transition: all 0.5s;
+                                   overflow: hidden;
+
+                                   .img {
+                                        &:hover {
+                                             img {
+                                                  overflow: hidden;
+                                                  transform: scale(1.2);
+                                             }
+                                        }
+
+                                        cursor: pointer;
+
+                                        img {
+                                             transition: all 0.5s;
+                                        }
+
+                                        width: 100%;
+                                        height: 100%;
+                                        overflow: hidden;
+                                   }
+
+                                   border: unset;
+
+                                   .card-body {
+                                        padding: 1.25rem 0;
+
+                                        .card-text {
+                                             .heading {
+                                                  transition: all 0.5s;
+
+                                                  &:hover {
+                                                       color: $color-pink;
+                                                  }
+
+                                                  cursor: pointer;
+                                                  font-weight: bold;
+                                             }
+
+                                             .datetime {
+                                                  margin: 1% 0;
+                                                  color: #999999;
+                                                  font-size: 14px;
+                                             }
+
+                                             .content {
+                                                  line-height: 1.1;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+
+               .button {
+                    text-align: center;
+
+                    button {
+                         background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                         transition: all 2s;
+                         font-size: 17px;
+                         border: unset;
+                         padding: 10px 50px;
+                         color: $color-white;
+
+                         &:hover {
+                              // background: #666666;
+                              background: linear-gradient(180deg, #666666 0, #666666 100%);
+                         }
+                    }
+               }
+
+               .ads2 {
+                    .ads2__content {
+                         padding: 0.7%;
+
+                         .row-cus {
+                              align-items: center;
+                              width: 100%;
+                              margin: 0;
+
+                              .left {}
+
+                              .right {
+                                   padding: 2%;
+
+                                   .item {
+                                        h4 {
+                                             margin-bottom: 2rem;
+                                        }
+
+                                        p {
+                                             .bold {
+                                                  font-weight: bold;
+                                             }
+
+                                             margin-bottom: 2rem;
+
+                                             .italic {
+                                                  font-style: italic;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+
+               .picture {
+                    padding: 4% 0.7%;
+
+                    .picture__content {
+                         .row-cus {
+                              width: 100%;
+                              margin: 0;
+
+                              .left {
+                                   .item {
+
+                                        // padding-top: 2%;
+                                        .img {
+                                             height: 450px;
+                                             background-image: url(../../img/hinhanh.jpg);
+                                             background-position: center;
+                                             background-repeat: no-repeat;
+                                             background-size: cover;
+                                        }
+
+                                        .img2 {
+                                             height: 450px;
+                                             background-image: url(../../img/hinhanh2.jpg);
+                                             background-position: center;
+                                             background-repeat: no-repeat;
+                                             background-size: cover;
+                                        }
+
+                                        .img3 {
+                                             height: 450px;
+                                             background-image: url(../../img/hinhanh3.jpg);
+                                             background-position: center;
+                                             background-repeat: no-repeat;
+                                             background-size: cover;
+                                        }
+
+                                        .img4 {
+                                             height: 450px;
+                                             background-image: url(../../img/hinhanh4.jpg);
+                                             background-position: center;
+                                             background-repeat: no-repeat;
+                                             background-size: cover;
+                                        }
+
+                                        .img5 {
+                                             height: 450px;
+                                             background-image: url(../../img/hinhanh5.jpg);
+                                             background-position: center;
+                                             background-repeat: no-repeat;
+                                             background-size: cover;
+                                        }
+                                   }
+                              }
+
+                              .right {
+                                   .item {
+                                        .row-cus {
+                                             flex-direction: column;
+                                             width: 100%;
+                                             margin: 0;
+
+                                             .col-cus {
+                                                  .item {
+                                                       h5 {
+                                                            margin-bottom: 1rem;
+                                                       }
+
+                                                       p {
+                                                            font-size: 15px;
+                                                            line-height: 1.2;
+                                                       }
+                                                  }
+                                             }
+
+                                             .top {
+                                                  background-color: $color-black-3;
+
+                                                  .item-top {
+                                                       cursor: pointer;
+                                                       height: 225px;
+                                                       padding: 9%;
+
+                                                       p,
+                                                       h5 {
+                                                            color: $color-gray-2;
+                                                       }
+                                                  }
+                                             }
+
+                                             .bottom {
+                                                  background-color: $color-black-4;
+
+                                                  .item-bottom {
+                                                       cursor: pointer;
+                                                       height: 225px;
+                                                       padding: 9%;
+
+                                                       p,
+                                                       h5 {
+                                                            color: $color-gray-2;
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+
+                         .pic-carousel {
+                              .owl-nav {
+                                   margin-top: 0;
+
+                                   .owl-prev {
+                                        &:hover {
+                                             color: white;
+                                             background-color: black;
+                                             border: unset;
+                                        }
+                                        &:focus{
+                                             outline: unset;
+                                        }
+
+                                        span {
+                                             line-height: 20px;
+                                             display: inline-block;
+                                             width: 30px;
+                                             height: 30px;
+                                             border: 1px solid black;
+                                             border-radius: 50%;
+                                             font-size: 25px;
+                                        }
+                                   }
+
+                                   .owl-next {
+                                        &:hover {
+                                             color: white;
+                                             background-color: black;
+                                             border: unset;
+                                        }
+                                        &:focus{
+                                             outline: unset;
+                                        }
+
+                                        span {
+                                             line-height: 20px;
+                                             display: inline-block;
+                                             width: 30px;
+                                             height: 30px;
+                                             border: 1px solid black;
+                                             border-radius: 50%;
+                                             font-size: 25px;
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+
+          .button1.button3 {
+               transition: all 0.5s;
+               display: none;
+
+               .row-cus {
+                    width: 100%;
+                    margin: 0;
+
+                    .col-cus {
+                         .item {
+                              padding: 2%;
+
+                              .card {
+                                   transition: all 0.5s;
+                                   overflow: hidden;
+
+                                   .img {
+                                        &:hover {
+                                             img {
+                                                  overflow: hidden;
+                                                  transform: scale(1.2);
+                                             }
+                                        }
+
+                                        cursor: pointer;
+
+                                        img {
+                                             transition: all 0.5s;
+                                        }
+
+                                        width: 100%;
+                                        height: 100%;
+                                        overflow: hidden;
+                                   }
+
+                                   border: unset;
+
+                                   .card-body {
+                                        padding: 1.25rem 0;
+
+                                        .card-text {
+                                             .heading {
+                                                  transition: all 0.5s;
+
+                                                  &:hover {
+                                                       color: $color-pink;
+                                                  }
+
+                                                  cursor: pointer;
+                                                  font-weight: bold;
+                                             }
+
+                                             .datetime {
+                                                  margin: 1% 0;
+                                                  color: #999999;
+                                                  font-size: 14px;
+                                             }
+
+                                             .content {
+                                                  line-height: 1.1;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+
+               .button {
+                    text-align: center;
+
+                    button {
+                         background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                         transition: all 2s;
+                         font-size: 17px;
+                         border: unset;
+                         padding: 10px 50px;
+                         color: $color-white;
+
+                         &:hover {
+                              // background: #666666;
+                              background: linear-gradient(180deg, #666666 0, #666666 100%);
+                         }
+                    }
+               }
+          }
+
+          .button1.button2 {
+               transition: all 0.5s;
+               display: none;
+
+               .row-cus {
+                    width: 100%;
+                    margin: 0;
+
+                    .col-cus {
+                         .item {
+                              padding: 2%;
+
+                              .card {
+                                   transition: all 0.5s;
+                                   overflow: hidden;
+
+                                   .img {
+                                        &:hover {
+                                             img {
+                                                  overflow: hidden;
+                                                  transform: scale(1.2);
+                                             }
+                                        }
+
+                                        cursor: pointer;
+
+                                        img {
+                                             transition: all 0.5s;
+                                        }
+
+                                        width: 100%;
+                                        height: 100%;
+                                        overflow: hidden;
+                                   }
+
+                                   border: unset;
+
+                                   .card-body {
+                                        padding: 1.25rem 0;
+
+                                        .card-text {
+                                             .heading {
+                                                  transition: all 0.5s;
+
+                                                  &:hover {
+                                                       color: $color-pink;
+                                                  }
+
+                                                  cursor: pointer;
+                                                  font-weight: bold;
+                                             }
+
+                                             .datetime {
+                                                  margin: 1% 0;
+                                                  color: #999999;
+                                                  font-size: 14px;
+                                             }
+
+                                             .content {
+                                                  line-height: 1.1;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+
+               .button {
+                    text-align: center;
+
+                    button {
+                         background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                         transition: all 2s;
+                         font-size: 17px;
+                         border: unset;
+                         padding: 10px 50px;
+                         color: $color-white;
+
+                         &:hover {
+                              // background: #666666;
+                              background: linear-gradient(180deg, #666666 0, #666666 100%);
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("extra-large") {
+     .heading__bottom {
+          margin-top: 0.5%;
+          margin-bottom: 2%;
+
+          .heading__bottom__content {
+
+               // max-width: 1155px;
+               .button1 {
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       font-size: 15px;
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       font-size: 11px;
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       font-size: 17px;
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+
+                    .ads2 {
+                         .ads2__content {
+                              padding: 0.7%;
+                              max-width: 99.5%;
+                              .row-cus {
+                                   align-items: center;
+                                   width: 100%;
+                                   margin: 0;
+     
+                                   .left {}
+     
+                                   .right {
+                                        padding: 2%;
+     
+                                        .item {
+                                             h4 {
+                                                  margin-bottom: 1rem;
+                                                  font-size: 20px;
+                                             }
+     
+                                             p {
+                                                  margin-bottom: 1rem!important;
+                                                  &:first-child{
+                                                       font-size: 17px;
+                                                  }
+                                                  &:nth-child(2){
+                                                       font-size: 15px;
+                                                  }
+                                                  .bold {
+
+                                                       font-weight: bold;
+                                                  }
+     
+                                                  margin-bottom: 2rem;
+     
+                                                  .italic {
+                                                       font-style: italic;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+               }
+
+               .button1.button3 {
+                    transition: all 0.5s;
+                    display: none;
+
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+               }
+
+               .button1.button2 {
+                    transition: all 0.5s;
+                    display: none;
+
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("large-cus") {
+     .heading__bottom {
+          margin-top: 0.5%;
+          margin-bottom: 2%;
+
+          .heading__bottom__content {
+
+               // max-width: 1155px;
+               .button1 {
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       font-size: 15px;
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       font-size: 11px;
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       font-size: 17px;
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+               }
+
+               .button1.button3 {
+                    transition: all 0.5s;
+                    display: none;
+
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+               }
+
+               .button1.button2 {
+                    transition: all 0.5s;
+                    display: none;
+
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("large") {
+     .heading__bottom {
+          .heading__bottom__content {
+               .button1 {
+                    .picture {
+                         .picture__content {
+                              .item {
+                                   .row-cus {
+                                        .left {
+                                             .item {
+                                                  .img {
+                                                       height: 450px;
+                                                  }
+                                                  .img2 {
+                                                       height: 450px;
+                                                  }
+                                                  .img3 {
+                                                       height: 450px;
+                                                  }
+                                                  .img4 {
+                                                       height: 450px;
+                                                  }
+                                                  .img5 {
+                                                       height: 450px;
+                                                  }
+                                             }
+                                        }
+
+                                        .right {
+                                             .item {
+                                                  .row-cus {
+                                                       .col-cus {
+                                                            .item {
+                                                                 height: 115px;
+                                                                 padding: 3%;
+
+                                                                 h5 {
+                                                                      font-size: 16px;
+                                                                 }
+
+                                                                 p {
+                                                                      font-size: 14px;
+                                                                 }
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("850") {
+     .heading__bottom {
+          margin-top: 0.5%;
+          margin-bottom: 2%;
+
+          .heading__bottom__content {
+
+               // max-width: 1155px;
+               .button1 {
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       font-size: 15px;
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       font-size: 11px;
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       font-size: 17px;
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+
+                    .ads2 {
+                         .ads2__content {
+                              padding: 0.7%;
+                              max-width: 99.5%;
+                              .row-cus {
+                                   align-items: center;
+                                   width: 100%;
+                                   margin: 0;
+     
+                                   .left {}
+     
+                                   .right {
+                                        padding: 2%;
+     
+                                        .item {
+                                             h4 {
+                                                  margin-bottom: 1rem;
+                                                  font-size: 18px;
+                                             }
+     
+                                             p {
+                                                  margin-bottom: 1rem!important;
+                                                  &:first-child{
+                                                       font-size: 12px;
+                                                  }
+                                                  &:nth-child(2){
+                                                       font-size: 14px;
+                                                  }
+                                                  .bold {
+
+                                                       font-weight: bold;
+                                                  }
+     
+                                                  margin-bottom: 2rem;
+     
+                                                  .italic {
+                                                       font-style: italic;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+               }
+
+               .button1.button3 {
+                    transition: all 0.5s;
+                    display: none;
+
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+               }
+
+               .button1.button2 {
+                    transition: all 0.5s;
+                    display: none;
+
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("700") {
+     .heading__bottom {
+          margin-top: 0.5%;
+          margin-bottom: 2%;
+
+          .heading__bottom__content {
+
+               // max-width: 1155px;
+               .button1 {
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       font-size: 15px;
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       font-size: 11px;
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       font-size: 17px;
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+
+                    .ads2 {
+                         .ads2__content {
+                              padding: 0.7%;
+                              max-width: 99.5%;
+                              .row-cus {
+                                   align-items: center;
+                                   width: 100%;
+                                   margin: 0;
+     
+                                   .left {
+                                        
+                                   }
+     
+                                   .right {
+                                        padding: 2%;
+     
+                                        .item {
+                                             h4 {
+                                                  margin-bottom: 1rem;
+                                                  font-size: 18px;
+                                             }
+     
+                                             p {
+                                                  margin-bottom: 1rem!important;
+                                                  &:first-child{
+                                                       font-size: 12px;
+                                                  }
+                                                  &:nth-child(2){
+                                                       font-size: 14px;
+                                                  }
+                                                  .bold {
+
+                                                       font-weight: bold;
+                                                  }
+     
+                                                  margin-bottom: 2rem;
+     
+                                                  .italic {
+                                                       font-style: italic;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+                    .picture{
+                         .picture__content{
+                              .item{
+                                   .row-cus{
+                                        .left{
+                                             .item {
+                                                  .img {
+                                                       height: 325px;
+                                                  }
+                                                  .img2 {
+                                                       height: 325px;
+                                                  }
+                                                  .img3 {
+                                                       height: 325px;
+                                                  }
+                                                  .img4 {
+                                                       height: 325px;
+                                                  }
+                                                  .img5 {
+                                                       height: 325px;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+               }
+
+               .button1.button3 {
+                    transition: all 0.5s;
+                    display: none;
+
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+               }
+
+               .button1.button2 {
+                    transition: all 0.5s;
+                    display: none;
+
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("medium") {
+     .heading__bottom {
+          margin-top: 0.5%;
+          margin-bottom: 2%;
+
+          .heading__bottom__content {
+
+               // max-width: 1155px;
+               .button1 {
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       font-size: 15px;
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       font-size: 11px;
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       font-size: 17px;
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+
+                    .ads2 {
+                         .ads2__content {
+                              padding: 0.7%;
+                              max-width: 99.5%;
+                              .row-cus {
+                                   align-items: center;
+                                   width: 100%;
+                                   margin: 0;
+     
+                                   .left {}
+     
+                                   .right {
+                                        padding: 0;
+     
+                                        .item {
+                                             padding: 0;
+                                             h4 {
+                                                  margin-bottom: .5rem;
+                                                  font-size: 18px;
+                                             }
+     
+                                             p {
+                                                  margin-bottom: .5rem!important;
+                                                  &:first-child{
+                                                       font-size: 12px;
+                                                  }
+                                                  &:nth-child(2){
+                                                       font-size: 14px;
+                                                  }
+                                                  .bold {
+
+                                                       font-weight: bold;
+                                                  }
+     
+                                                  margin-bottom: 2rem;
+     
+                                                  .italic {
+                                                       font-style: italic;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+               }
+
+               .button1.button3 {
+                    transition: all 0.5s;
+                    display: none;
+
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+               }
+
+               .button1.button2 {
+                    transition: all 0.5s;
+                    display: none;
+
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("small-max") {
+     .heading__bottom {
+          .heading__bottom__content {
+               .button1 {
+                    .picture{
+                         .picture__content{
+                              .pic-carousel{
+                                   .owl-stage-outer{
+                                        height: 445px;
+                                   }
+                              }
+                         }
+                    }
+                    .picture {
+                         .picture__content {
+                              .item {
+                                   .row-cus {
+                                        .left {
+                                             .item {
+                                                  .img {
+                                                       height: 265px;
+                                                  }
+                                                  .img2 {
+                                                       height: 265px;
+                                                  }
+                                                  .img3 {
+                                                       height: 265px;
+                                                  }
+                                                  .img4 {
+                                                       height: 265px;
+                                                  }
+                                                  .img5 {
+                                                       height: 265px;
+                                                  }
+                                             }
+                                        }
+
+                                        .right {
+                                             .item {
+                                                  .row-cus {
+                                                       .col-cus {
+                                                            .item {
+                                                                 height: 90px;
+                                                                 padding: 3%;
+
+                                                                 h5 {
+                                                                      margin-bottom: 0.4rem;
+                                                                      font-size: 16px;
+                                                                 }
+
+                                                                 p {
+                                                                      font-size: 13px;
+                                                                 }
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("small-cus") {
+     .heading__bottom {
+          margin-top: 0.5%;
+          margin-bottom: 2%;
+
+          .heading__bottom__content {
+
+               // max-width: 1155px;
+               .button1 {
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       font-size: 13px;
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       font-size: 12px;
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       font-size: 15px;
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+               }
+
+               .button1.button3 {
+                    transition: all 0.5s;
+                    display: none;
+
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+               }
+
+               .button1.button2 {
+                    transition: all 0.5s;
+                    display: none;
+
+                    .row-cus {
+                         width: 100%;
+                         margin: 0;
+
+                         .col-cus {
+                              .item {
+                                   padding: 2%;
+
+                                   .card {
+                                        transition: all 0.5s;
+                                        overflow: hidden;
+
+                                        .img {
+                                             &:hover {
+                                                  img {
+                                                       overflow: hidden;
+                                                       transform: scale(1.2);
+                                                  }
+                                             }
+
+                                             cursor: pointer;
+
+                                             img {
+                                                  transition: all 0.5s;
+                                             }
+
+                                             width: 100%;
+                                             height: 100%;
+                                             overflow: hidden;
+                                        }
+
+                                        border: unset;
+
+                                        .card-body {
+                                             padding: 1.25rem 0;
+
+                                             .card-text {
+                                                  .heading {
+                                                       transition: all 0.5s;
+
+                                                       &:hover {
+                                                            color: $color-pink;
+                                                       }
+
+                                                       cursor: pointer;
+                                                       font-weight: bold;
+                                                  }
+
+                                                  .datetime {
+                                                       margin: 1% 0;
+                                                       color: #999999;
+                                                       font-size: 14px;
+                                                  }
+
+                                                  .content {
+                                                       line-height: 1.1;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .button {
+                         text-align: center;
+
+                         button {
+                              background: linear-gradient(180deg, #ed0080 0, #be3b98 100%);
+                              transition: all 2s;
+                              font-size: 17px;
+                              border: unset;
+                              padding: 10px 50px;
+                              color: $color-white;
+
+                              &:hover {
+                                   // background: #666666;
+                                   background: linear-gradient(180deg, #666666 0, #666666 100%);
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
